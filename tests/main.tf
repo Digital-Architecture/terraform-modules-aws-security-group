@@ -3,7 +3,7 @@
 
 module "sg-example" {
 
-    source = "."
+    source = "../"
 
     name_security_group     = "foo"
     vpc_id                  = var.vpc_id

@@ -21,7 +21,7 @@ variable "sg_rules" {
         from_port   = number
         to_port     = number
         protocol    = string 
-        cidr_block  = string
+        cidr_blocks = string
         description = string
     }))
 }

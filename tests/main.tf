@@ -7,7 +7,7 @@ module "sg-example" {
 
     name_security_group     = "foo"
     #vpc_id                  = ""
-    #tags                    = "" 
+    tags                    = { "Name" = "local" }
 
     sg_rules                = [
         {

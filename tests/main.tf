@@ -6,8 +6,8 @@ module "sg-example" {
     source = "../"
 
     name_security_group     = "foo"
-    vpc_id                  = var.vpc_id
-    tags                    = var.tags 
+    #vpc_id                  = ""
+    #tags                    = "" 
 
     sg_rules                = [
         {
